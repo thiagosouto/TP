@@ -1,0 +1,25 @@
+E preciso ter o gcc e o make instalado no seu computador.
+
+
+
+PARA COMPILAR PODE USAR O COMANDO PELO TERMINAL:
+
+Dentro do diretorio que encontra todos os arquivos use o comando
+
+# make
+ou caso nao tenha o make instalado em seu computador 
+
+# gcc main.c exec.c menu.c quick.c insertion.c -o tp -lm
+
+PATA EXECUTAR O PROGRAMA NO MESMO DIRETORIO DIGITA O COMANDO
+
+# ./tp
+
+PARA APAGAR O EXECUTAVEL USE O COMANDO
+
+# make clean
+
+CASE DE ALGUM ERRO NA HORA DE COMPILAR USE O COMANDO
+
+# make clean_erro
+
