@@ -1,0 +1,35 @@
+E preciso ter o gcc  para que possa compilar o código pois ele foi escrito na linguagem C.
+E recomendo ter o programa make instalado no seu computador para que facilite a compilação
+do código e para apagar,
+
+
+PARA COMPILAR USE O COMANDO PELO TERMINAL:
+
+Dentro do diretório que encontra todos os arquivos use o comando
+
+# make
+
+ou caso não tenha o make instalado em seu computador
+
+# gcc inteligencia.c main.c funcoes.c -o TP -lm -Wall
+
+caso tenha nescecidade de debugar o código também é possível compilar o código com
+o -g para que possar usar um GDB ou um DDD, e só usar o COMANDO;
+
+# make dbug
+
+
+Esse código depende de dois arquivos .txt de entrada, um contendo as composições
+da caixa e outro contendo as configurações das bombas, esses arquivos deve ser passando
+por parâmetro na hora da execução, e o programa irar gerar um saidaTP1.txt de saída quando terminar
+caso já exista um arquivo desse no diretório atual ele irar sobrescrever esse arquivo perdendo com
+o que estava dentro dele.
+
+
+PATA EXECUTAR O PROGRAMA NO MESMO DIRETÓRIO DIGITA O COMANDO
+
+# ./TP <nome do arquivo txt contendo as COMPOSIÇÕES> <nome do arquivo txt contendo as CONFIGURAÇÕES>
+
+PARA APAGAR O EXECUTÁVEL, O TXT RESPOSTA E OS .o USE O COMANDO
+
+# make clean

@@ -1,0 +1,7 @@
+Essa e a variação do meu codigo para teste.
+
+Foi feita uma alteração na abertura de arquivo e chamada de modo que ele executa o codigo varias vezes e responde um arquivo .txt com a tabela de tempos de execução. É o mesmo codigo so ocorreu a variação na execução da main.
+
+para executar esse codigo e preciso somente enviar a composição como paramentro, para alterar as configurações e necessario alterar a main.c no codigo fonte mesmo.
+
+compilação e a mesma coisa.
